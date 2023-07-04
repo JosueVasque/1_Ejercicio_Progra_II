@@ -8,12 +8,16 @@ int main() {
 
     cout << "Ingrese la superficie inicial del terreno: ";
     cin >> superficie_inicial;
+    system("cls");
+
     cout << "Ingrese el numero de generaciones: ";
     cin >> generaciones;
+    system("cls");
 
     for (int i = 0; i < generaciones; i++) {
         cout << "Ingrese el numero de herederos en la generacion " << i + 1 << ": ";
         cin >> herederos_por_generacion[i];
+        system("cls");
     }
 
     double area_heredada = superficie_inicial;
